@@ -1,2 +1,5 @@
 #!/bin/bash
-yum install -y httpd
+# Update and install necessary packages
+sudo yum -y update
+sudo yum -y install httpd
+sudo systemctl enable httpd
